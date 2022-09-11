@@ -1,0 +1,171 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+/* todo Style z-a p.class s{ #id{ *{ */
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family:'Calibri';
+  color: black;
+  --bg: var(--00002)
+}
+.skip-link{
+  z-index: 100;
+  top: -40px;
+  position: absolute;
+  padding: 8px;
+  left: 0;
+  color: white;
+  background: #000000;
+}
+.skip-link:focus{
+  top: 0;
+}
+
+header {
+  text-align: center;
+  background-color: rgb(240, 240, 240);
+  align-items: center;
+}
+header .container{
+  flex-direction: column;
+  display: flex;
+}
+header .logo{
+  padding: 2px 5px;
+  margin: 0%;
+  font-weight: lighter;
+  color:black
+}
+header nav {
+  padding-bottom: 11px;
+  flex-direction: column;
+  display: flex;
+  border-style: double groove;
+  background-color: rgba(231, 231, 231, 0.712);
+}
+header a{
+  text-decoration: none;
+  padding: 6px 12px;
+  color: black;
+}
+
+header a:hover{
+  color: rgb(121, 121, 121);
+}
+h2 {
+  font-weight: 300;
+  font-size: small;
+}
+
+main {
+  background-color: rgb(217, 218, 219);
+}
+section{
+  padding: 0.2cm;
+  text-align: center;
+  align-items: center;
+}
+#seccion_intro{
+  padding: 9mm;
+}
+h3 {
+  text-align: left;
+}
+
+ul {
+  text-align: left;
+  list-style: circle;
+  color: rgb(0, 0, 0);
+}
+ol {
+  text-align: left;
+  list-style: 1;
+  color: rgb(0, 0, 0);
+}
+
+.lorem{
+  text-align: justify;
+}
+.lorem:first-child:first-letter{
+  font-size: 2ex;
+}
+table {
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px solid black;
+  align-items: center;
+}
+th, td{
+  padding: 10px;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+#tag_ilogos{
+  width: 21px;
+  max-width: 100%;
+  height: 21px;
+  display: flexbox;
+}
+
+aside {
+  background-color: hsl(hue, saturation, lightness);
+  width: 30%;
+  height: 40%;
+}
+
+footer {
+  background-color: rgb(210, 200, 400);
+}
+address {
+  font: 100 medium 'Times New Roman', Times, serif;
+}
+p.ceo{
+  text-align: center;
+  padding: 0.5pc;
+}
+/* ? N (140), RGB (255) A, HEX (ff), HSL (360° 100%^2) A*/
+
+.spanI{
+  font-size: smaller;
+}
+/* background-image: linear-gradient(0deg, rgba(0,0,0,0.5)*2) */
+.containerC {
+  max-width: 1400px;
+  margin: auto;
+  flex-direction: row;
+  display: flex;
+}
+.ceoCom{
+  margin: 10pt 11pt 10pt 2pt;
+  padding: 0.5pc 0.6pc;
+  font-size: 4fr;
+  box-shadow: 0.25ex 0.25ex 0.7ex black;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: rgb(202, 202, 202);
+}
+button:hover{
+  background-color: rgba(255, 255, 255, 1);
+}
+
+@media (min-width: 720px){
+  header .container{
+    width: 100%;
+    position: fixed;
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+  }
+  header nav {
+    padding-right: 10px;
+    padding-bottom: 0px;
+    flex-direction: row;
+    display: flex;
+  }
+}
