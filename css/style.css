@@ -7,7 +7,6 @@
 html{
   scroll-behavior: smooth;
 }
-
 body {
   font-family:'Calibri';
   color: black;
@@ -25,7 +24,6 @@ body {
 .skip-link:focus{
   top: 0;
 }
-
 header {
   text-align: center;
   background-color: rgb(240, 240, 240);
@@ -53,7 +51,6 @@ header a{
   padding: 6px 12px;
   color: black;
 }
-
 header a:hover{
   color: rgb(121, 121, 121);
 }
@@ -61,7 +58,6 @@ h2 {
   font-weight: 300;
   font-size: small;
 }
-
 main {
   background-color: rgb(217, 218, 219);
 }
@@ -76,49 +72,17 @@ section{
 h3 {
   text-align: left;
 }
-
-ul {
-  text-align: left;
-  list-style: circle;
-  color: rgb(0, 0, 0);
-}
-ol {
-  text-align: left;
-  list-style: 1;
-  color: rgb(0, 0, 0);
-}
-
-.lorem{
-  text-align: justify;
-}
-.lorem:first-child:first-letter{
-  font-size: 2ex;
-}
-table {
-  text-align: center;
-  border-collapse: collapse;
-  border: 1px solid black;
-  align-items: center;
-}
-th, td{
-  padding: 10px;
-  border-collapse: collapse;
-  border: 1px solid black;
-}
-
 #tag_ilogos{
   width: 21px;
   max-width: 100%;
   height: 21px;
   display: flexbox;
 }
-
 aside {
   background-color: hsl(hue, saturation, lightness);
   width: 30%;
   height: 40%;
 }
-
 footer {
   background-color: rgb(210, 200, 400);
 }
@@ -129,11 +93,12 @@ p.ceo{
   text-align: center;
   padding: 0.5pc;
 }
+/*ul {  text-align: left;  list-style: circle;  color: rgb(0,0-0);} ol {  text-align: left;  list-style: 1;  color: rgb(0,0-0);}*/
+/*.lorem{  text-align: justify;}.lorem:first-child:first-letter{  font-size: 2ex;}*/
+/*table {  text-align: center;  border-collapse: collapse;  border: 1px solid blackk;  align-items: center;} th, td{  padding: 10px;  border-collapse: collapse;  border: 1px solid blackk;}*/
+
 /* ? N (140), RGB (255) A, HEX (ff), HSL (360° 100%^2) A*/
 
-.spanI{
-  font-size: smaller;
-}
 /* background-image: linear-gradient(0deg, rgba(0,0,0,0.5)*2) */
 .containerC {
   max-width: 1400px;
