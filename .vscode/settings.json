@@ -2,6 +2,7 @@
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.renderWhitespace": "boundary",
+  "editor.tabSize": 2,
   "workbench.colorCustomizations": {
     "editorLineNumber.foreground": "#00ff00"
   },
