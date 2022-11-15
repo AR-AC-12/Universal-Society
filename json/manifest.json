@@ -1,66 +1,66 @@
 {
-    "theme_color": "#180EFB",
-    "short_name": "US",
-    "name": "Universal Society",
-    "icons": [
-      {
-       "src": "/icon/favicon_gen/android-icon-36x36.png",
-       "sizes": "36x36",
-       "type": "image/png",
-       "density": "0.75"
-      },
-      {
-       "src": "/icon/favicon_gen/android-icon-48x48.png",
-       "sizes": "48x48",
-       "type": "image/png",
-       "density": "1.0"
-      },
-      {
-       "src": "/icon/favicon_gen/android-icon-72x72.png",
-       "sizes": "72x72",
-       "type": "image/png",
-       "density": "1.5"
-      },
-      {
-       "src": "/icon/favicon_gen/android-icon-96x96.png",
-       "sizes": "96x96",
-       "type": "image/png",
-       "density": "2.0"
-      },
-      {
-       "src": "/icon/favicon_gen/android-icon-144x144.png",
-       "sizes": "144x144",
-       "type": "image/png",
-       "density": "3.0"
-      },
-      {
-       "src": "/icon/favicon_gen/android-icon-192x192.png",
-       "sizes": "192x192",
-       "type": "image/png",
-       "density": "4.0"
-      },
-      {
-        "src": "/icon/regular_icon192x192.png",
-        "type": "image/png",
-        "sizes": "192x192"
-      },
-      {
-        "src": "/icon/regular_icon512x512.png",
-        "type": "image/png",
-        "sizes": "512x512",
-        "purpose": "any"
-      },
-      {
-        "src": "./icon/maskable_icon.png",
-        "type": "image/png",
-        "sizes": "1024x1024",
-        "purpose": "any maskable"
-      }
-    ],
-    "start_url": "/?source=pwa",
-    "background_color": "#3376D6",
-    "display_override": ["window-control-overlay", "minimal-ui"],
-    "display": "standalone",
-    "scope": "/",
-    "description": "Página con estructura semántica y accesibilidad, en proceso"
+  "theme_color": "#180EFB",
+  "short_name": "US",
+  "name": "Universal Society",
+  "icons": [
+    {
+      "src": "/icon/fi_gen/android-icon-36x36.png",
+      "sizes": "36x36",
+      "type": "image/png",
+      "density": "0.75"
+    },
+    {
+      "src": "/icon/fi_gen/android-icon-48x48.png",
+      "sizes": "48x48",
+      "type": "image/png",
+      "density": "1.0"
+    },
+    {
+      "src": "/icon/fi_gen/android-icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "density": "1.5"
+    },
+    {
+      "src": "/icon/fi_gen/android-icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "density": "2.0"
+    },
+    {
+      "src": "/icon/fi_gen/android-icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "density": "3.0"
+    },
+    {
+      "src": "/icon/fi_gen/android-icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "density": "4.0"
+    },
+    {
+      "src": "/icon/regular_icon192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icon/regular_icon512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon/maskable_icon.png",
+      "type": "image/png",
+      "sizes": "1024x1024",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/?source=pwa",
+  "background_color": "#3376D6",
+  "display_override": ["window-control-overlay", "minimal-ui"],
+  "display": "standalone",
+  "scope": "/",
+  "description": "Página con estructura semántica y accesibilidad, en proceso"
 }
