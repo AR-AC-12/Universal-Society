@@ -1,6 +1,8 @@
+html.webp
 # extentions files
 *.drawio
 *.ini
+*.java
 *.php
 *.py
 *.sql
