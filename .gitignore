@@ -1,8 +1,17 @@
 # extentions files
 *.drawio
-*.html
 *.ini
-*.mp4
+*.php
 *.py
 *.sql
 *.txt
+# named folders
+edu/
+vid/
+rs/
+
+## The .gitignore file's purpose is to prevent everyone who collaborates on a project from accidentally commiting some common files in a project, such as generated cache files.
+## El propósito del archivo .gitignore es evitar que todos los que colaboran en un proyecto confirmen accidentalmente algunos archivos comunes en un proyecto, como los archivos de caché generados.
+
+.DS_Store
+.prettierignore

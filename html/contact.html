@@ -2,42 +2,32 @@
 <html lang="en" class="translated-ltr">
 <head>
     <meta charset="UTF-8, UTF-16, UTF-32"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="author" content="Abraham Randolf"/>
-    <meta
-      name="description"
-      content="Autor, Diseñador: Abraham Randolf,
-               página de contacto con estructura semisemántica y accesibilidad en proceso"
-    />
-    <meta name="keywords" content="US, contacto, usuario, cuenta"/>
-    <meta name="robots" content="index.unfollow"/> <!--Visibilidad-->
-  <!--<meta name="theme-color" media="(prefers-color-scheme: dark)"  content="black"/>
-    <meta name="theme-color" media="(prefers-color-scheme: light)" content="white"/>-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.2"/>
-     <title>US: Contacto</title> <!--Title in tab-->
-    <link as="style" rel="preload" onload="this.onload=null;this.rel='stylesheet'" href="./css/base.css" onload="this.onload=null">
-    <noscript><link rel="stylesheet" href="/css/base.css"></noscript>
-<!--<link rel="stylesheet" href="./css/dark theme.css" media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)">
-    <link rel="stylesheet" href="./css/light theme.css" media="(prefers-color-scheme: light)">-->
-    <link as="style" rel="stylesheet" href="./css/style.css">
-    <noscript><link rel="preload" rel="stylesheet" href="/css/style.css"></noscript>
-  <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">-->
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="Abraham Randolf" name="author" />
+    <meta content="Autor, Diseñador: Abraham Randolf, página de contacto con estructura semisemántica y accesibilidad en proceso" name="description" />
+    <meta content="US, contacto, usuario, cuenta" name="keywords" />
+    <meta content="index.unfollow" name="robots" />
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.2" name="viewport" />
+     <title>US: Contacto</title>
+<!--<link as="style" onload="this.onload=null;this.rel='stylesheet'" href="./css/style.css" onload="this.onload=null">-->
+    <noscript><link rel="preload" rel="stylesheet" href="css/style.css"></noscript>
+<!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">-->
 </head>
 <body class="light-theme">
  <a class="skip-link" href="#cmain">Skip to main contact</a>
     <header></header>
     <main id="cmain">
         <form action="" autocomplete="on" method="post">
-            <fieldset> <!--role=group-->
+            <fieldset>
                 <legend>Personal user information</legend><!--"fullsurname, fullname"-->
                   <label>Surnames & Names: <input maxlength="64" name="u-surname, name" placeholder="Enter your full surnames and full names" size="36" type="text" required autofocus></label>*<br>
                   <label>Date of birth: <input name="u-dateBirth" type="datetime-local" required></label>*<br>
                   <label>Age: <input name="u-age" type="number" required></label>*<br>
                   <label>Country: <input name="u-country" type="text" required></label>*<br>
                   <label>Sexuality: <br>
-                   <input type="radio" checked name='gender' value="female"> Mujer
-                   <input type="radio" checked name='gender' value="male"> Varón
-                   <input type="radio" checked name="gender" value="other"> Otro</label> <br>
+                   <input name='gender' type="radio" value="female" checked> Mujer
+                   <input name='gender' type="radio" value="male" checked> Varón
+                   <input name="gender" type="radio" value="other" checked> Otro</label> <br>
             </fieldset>
             <fieldset>
               <legend>User preference information</legend>

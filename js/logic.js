@@ -40,6 +40,7 @@ function drawLineal(color, xinicial, yinicial, xfinal, yfinal) {
   lienzo.closePath(); // * close lienzo
 }
 
+
 var key = {
   // arrow
   LEFT: 37,
